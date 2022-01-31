@@ -1,0 +1,127 @@
+.leftside-container{
+    background-color: aqua;
+    width: 30%;
+    height: 100%;
+}
+
+
+
+.left-side-twitter-icon img{
+    width: 6rem;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.home-container img{
+    width: 6rem;
+    height: 6rem;
+}
+.home-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.explorer-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.explorer-container img{
+    width: 6rem;
+}
+.explorer-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.notification-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.notification-container img{
+    width: 6rem;
+}
+.notification-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.messages-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.messages-container img{
+    width: 6rem;
+}
+.messages-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.saved-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.saved-container img{
+    width: 6rem;
+}
+.saved-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-container img{
+    width: 6rem;
+}
+.list-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-container img{
+    width: 6rem;
+}
+.profile-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.more-options-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.more-options-container img{
+    width: 6rem;
+}
+.more-options-container h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+
+.tweet-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.tweet-container button{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
