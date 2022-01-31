@@ -3,8 +3,13 @@
   flex-direction: column;
   background-color: white;
   width: 23%;
-  height: 100vh;
   padding-left: 7vw;
+  border: solid;
+  border-left: none;
+  border-width: 0.1vh;
+  position: fixed;
+  height: 100vw;
+  transform: translateX(30%);
 }
 
 .leftside-container nav {

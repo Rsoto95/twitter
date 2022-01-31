@@ -1,13 +1,13 @@
 .center-container {
   background-color: white;
-  width: 40%;
-  border-style: solid;
+  width: 54vw;
+  max-width: 30vw;
   height: 100vh;
+  transform: translateX(100%);
 }
 
 .top-section {
-  background-color: tomato;
-  height: 3vw;
+  height: 2vw;
   font-size: 2.5rem;
 }
 
@@ -16,19 +16,19 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
   height: 9vw;
-  border:solid;
+  border-bottom: solid;
+  border-width: 0.01vh;
 }
 
 .profile-image-center {
   display: grid;
   grid-column: span 1;
   grid-row: span 1;
-  background-color: yellow;
 }
 
 .profile-image-center img {
   width: 6rem;
-
+  height: 6rem;
   border-radius: 100%;
 }
 
@@ -63,7 +63,49 @@
   background-color: rgb(29, 161, 242);
   color: white;
   height: 4rem;
-  width: 12rem;
+  width: 10rem;
   border-radius: 10%;
   text-align: center;
+}
+
+.placeholder-tweet {
+  text-align: center;
+  font-size: 4rem;
+  height: 15rem;
+  line-height: 15rem;
+  align-content: center;
+}
+
+.tuit {
+  display: flex;
+  flex-direction: row;
+  font-size: 3rem;
+  height: 15rem;
+}
+
+.tuit img {
+  margin-top: 3rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+}
+.tuit-container {
+  margin-left: 1rem;
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.tuit-container-name {
+  height: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.tuit-container-text {
+  height: 12rem;
+  line-height: 2rem;
+  font-size: 1.6rem;
+  text-align: start;
 }
