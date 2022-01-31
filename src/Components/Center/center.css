@@ -16,8 +16,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(4, 1fr);
   height: 9vw;
-  border-bottom: solid;
-  border-width: 0.01vh;
+ 
 }
 
 .profile-image-center {

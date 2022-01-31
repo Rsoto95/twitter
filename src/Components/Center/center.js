@@ -8,6 +8,9 @@ export function Center() {
   const [tweetText, setTweetText] = useState("");
 
   const tweets = () => {
+
+
+
     let tuit = (
       <div className="tuit">
         <img src={profileImage} />
@@ -63,6 +66,7 @@ export function Center() {
         </div>
       </section>
       <section className="tweets-section">
+        
         <div className="placeholder-tweet">{tweet}</div>
       </section>
     </div>
