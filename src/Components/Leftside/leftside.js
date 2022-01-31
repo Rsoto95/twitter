@@ -3,6 +3,12 @@ import './leftside.css'
 import twitterIcon from "../../Images/twitter-icon-white.png"
 import homeIcon from "../../Images/Bold-Home-Icon-png-hd.png"
 import hashtag from "../../Images/hashtag.png"
+import bell from "../../Images/notifications.png"
+import messages from "../../Images/messages.png"
+import saved from "../../Images/saved.png"
+import list from "../../Images/list.png"
+import profile from "../../Images/profile.png"
+import moreOptions from "../../Images/more-options.png"
 
 
 export function Leftside(){
@@ -23,41 +29,40 @@ export function Leftside(){
         </div>
 
         <div className="notification-container">
-            <img src={homeIcon}/>
+            <img src={bell}/>
             <h4>Notifications</h4>
         </div>
 
         <div className="messages-container">
-            <img src={homeIcon}/>
+            <img src={messages}/>
             <h4>Messages</h4>
         </div>
 
         <div className="saved-container">
-            <img src={homeIcon}/>
+            <img src={saved}/>
             <h4>Saved</h4>
         </div>
 
         <div className="list-container">
-            <img src={homeIcon}/>
+            <img src={list}/>
             <h4>List</h4>
         </div>
 
         <div className="profile-container">
-            <img src={homeIcon}/>
+            <img src={profile}/>
             <h4>Profile</h4>
         </div>
 
         <div className="more-options-container">
-            <img src={homeIcon}/>
+            <img src={moreOptions}/>
             <h4>More Options</h4>
         </div>
+  
+        </nav>
 
         <div className="tweet-container">
-            <button>Tweet</button>
+            <div>Tweet</div>
         </div>
-  
-
-        </nav>
 
     </section>
         )

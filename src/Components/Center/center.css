@@ -1,4 +1,69 @@
-.center-container{
-    background-color: blue;
-    width: 40%;
+.center-container {
+  background-color: white;
+  width: 40%;
+  border-style: solid;
+  height: 100vh;
+}
+
+.top-section {
+  background-color: tomato;
+  height: 3vw;
+  font-size: 2.5rem;
+}
+
+.tweet-box {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 9vw;
+  border:solid;
+}
+
+.profile-image-center {
+  display: grid;
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: yellow;
+}
+
+.profile-image-center img {
+  width: 6rem;
+
+  border-radius: 100%;
+}
+
+.text-box {
+  display: grid;
+  grid-column: 2/13;
+  grid-row: 1/2;
+}
+
+.text-box textarea[type="text"] {
+  display: grid;
+  grid-column: 2/13;
+  grid-row: 2/3;
+  font-size: 2.5rem;
+}
+.text-box textarea {
+  border: none;
+  outline: none;
+}
+
+.tweet-button-center {
+  display: grid;
+  grid-row: 3/4;
+  grid-column: 1/13;
+  grid-template-columns: repeat(8, 1fr);
+  height: 5rem;
+}
+
+.tweet-button-center div {
+  display: grid;
+  grid-column: 7/9;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  height: 4rem;
+  width: 12rem;
+  border-radius: 10%;
+  text-align: center;
 }

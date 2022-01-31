@@ -1,127 +1,157 @@
-.leftside-container{
-    background-color: aqua;
-    width: 30%;
-    height: 100%;
+.leftside-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 23%;
+  height: 100vh;
+  padding-left: 7vw;
 }
 
-
-
-.left-side-twitter-icon img{
-    width: 6rem;
+.leftside-container nav {
+  gap: 0.5vw;
+  display: flex;
+  flex-direction: column;
 }
 
-.home-container{
-    display: flex;
-    flex-direction: row;
+.left-side-twitter-icon img {
+  width: 5rem;
+  margin-bottom: 0.5rem;
 }
 
-.home-container img{
-    width: 6rem;
-    height: 6rem;
-}
-.home-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.home-container {
+  display: flex;
 }
 
-.explorer-container{
-    display: flex;
-    flex-direction: row;
+.home-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.home-container h4 {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.explorer-container img{
-    width: 6rem;
-}
-.explorer-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.explorer-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.notification-container{
-    display: flex;
-    flex-direction: row;
+.explorer-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.explorer-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.notification-container img{
-    width: 6rem;
-}
-.notification-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.notification-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.messages-container{
-    display: flex;
-    flex-direction: row;
+.notification-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.notification-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.messages-container img{
-    width: 6rem;
-}
-.messages-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.messages-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.saved-container{
-    display: flex;
-    flex-direction: row;
+.messages-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.messages-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.saved-container img{
-    width: 6rem;
-}
-.saved-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.saved-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.list-container{
-    display: flex;
-    flex-direction: row;
+.saved-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.saved-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.list-container img{
-    width: 6rem;
-}
-.list-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.list-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.profile-container{
-    display: flex;
-    flex-direction: row;
+.list-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.list-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.profile-container img{
-    width: 6rem;
-}
-.profile-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.profile-container {
+  display: flex;
+  flex-direction: row;
 }
 
-.more-options-container{
-    display: flex;
-    flex-direction: row;
+.profile-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.profile-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
-.more-options-container img{
-    width: 6rem;
-}
-.more-options-container h4{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.more-options-container {
+  display: flex;
+  flex-direction: row;
 }
 
-
-.tweet-container{
-    display: flex;
-    flex-direction: row;
+.more-options-container img {
+  width: 4rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+}
+.more-options-container h4 {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  display: flex;
 }
 
-.tweet-container button{
-    margin-top: 3rem;
-    margin-left: 1rem;
+.tweet-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vw;
+}
+
+.tweet-container div {
+  margin-top: 3rem;
+  margin-left: 1rem;
+  background-color: rgb(29, 161, 242);
+  color: white;
+  height: 4rem;
+  width: 20rem;
+  border-radius: 10%;
+  text-align: center;
 }
