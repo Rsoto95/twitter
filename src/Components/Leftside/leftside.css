@@ -9,7 +9,7 @@
   border-width: 0.1vh;
   position: fixed;
   height: 100vw;
-  transform: translateX(30%);
+  transform: translateX(50%);
 }
 
 .leftside-container nav {
